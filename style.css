@@ -1,0 +1,90 @@
+/* //Analog Clock  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+
+    font-size: 6.6vw;
+    text-shadow: #091261cc 2px 2px 10px, #091261 3px 2px 70px;
+    color: white;
+    text-align: center;
+
+
+}
+#analog-clock{
+    /* height: 100vw; */
+    width: 100vw;
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/sunset.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   position: relative;
+
+
+
+}
+#analog-clock img{
+   height:50vw;
+   width: 50vw;
+   margin: 14% 0px;
+   top: 3%;
+   box-shadow: 0px 0px 30px #a02da1, inset  0px 0px 40px rgb(0, 140, 255), #a02da1 0px 0px 30px ,inset  0px 0px 70px white;
+   border-radius: 50%;
+
+
+}
+
+#hour{
+    background-color:transparent;
+    height: 15vw;
+    width: 1vw;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform-origin: bottom;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ac00af, inset  1px 01px 20px rgb(5, 143, 255), #a02da1 1px 1px 10px ,inset  1px 1px 20px white;
+   /* display: none; */
+
+
+}
+
+#minute{
+   background-color:transparent;
+   height: 20vw;
+   width: 1vw;
+   position: absolute;
+   top: 31%;
+   left: 50%;
+   transform-origin: bottom;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px #a02da1, inset  0px 0px 30px rgba(47, 255, 5, 0.705), #a02da1 0px 0px 10px ,inset  0px 0px 10px white;
+
+   
+
+   
+}
+
+#sec{
+   background-color:transparent;
+   height: 22vw;
+   width: 0.4vw;
+   position: absolute;
+   top: 29%;
+   left: 50%;
+
+   transform-origin:bottom;
+   /* transform-origin:35% 80%; */
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px #a02da1, inset  0px 0px 40px rgba(255, 255, 255, 0.705), #a02da1 0px 0px 10px ,inset  0px 0px 10px white;
+}
+
