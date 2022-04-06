@@ -21,7 +21,7 @@ h1{
     background-color: #000000;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/sunset.jpg);
+    background-image: url(sunset.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
