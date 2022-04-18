@@ -11,7 +11,7 @@
     height: 100vh;
     background-color: #000000;
     /* background-repeat: no-repeat; */
-    background-image: url(/sunset.jpg);
+    background-image: url(sunset.jpg);
     background-size: 100vw 180vh;
     display: flex;
     justify-content: center;
